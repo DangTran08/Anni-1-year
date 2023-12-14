@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hehhe</title>
+    <style>
+    .kiểu {
+        font-size: large;
+    }
+    </style>
+</head>
+<body>
+
+<button id="nút1" onclick="changeEffect()" style="border-radius: 50px;">Bấm tui!!!</button>
+<p id="text" class="kiểu"><strong>Halo!!!</strong></p>
+<a href="file:///C:/Users/TRANDANG/Desktop/surprise%20(maybe)/index.html">
+    <button style="background-color: red; color: pink; border-radius: 50px;" id="nút2">Bấm tui tiếp nè!!!</button>
+</a>
+
+<script>
+    let clickCount = 0;
+
+    function changeEffect() {
+        clickCount++;
+
+        // Perform different actions based on the click count without using remainder
+        if (clickCount === 1) {
+            document.getElementById("text").innerHTML = "Mình quen nhau được 1 năm ròi kìa!!!";
+        } else if (clickCount === 2) {
+            document.getElementById("text").innerHTML = "Cũng lâu nhưng mà cũng nhanh ha";
+        } else if (clickCount === 3) {
+            document.getElementById("text").innerHTML = "Thì anh cũng hay nói câu này nhưng mà thiệt sự cảm ơn em rất nhiều vì đã ở bên anh 1 năm.";
+        } else if (clickCount === 4) {
+            document.getElementById("text").innerHTML = "1 năm lận đó trời, kiên nhẫn với anh dữ z!";
+        } else if (clickCount === 5) {
+            document.getElementById("text").innerHTML = "Thì anh vẫn mong mình sẽ quen nhau lâu thêm nữa vì anh vẫn còn rất nhiều điều muốn làm chung với em,";
+        } else if (clickCount === 6) {
+            document.getElementById("text").innerHTML = "vẫn còn rất nhiều nơi anh muốn đi với em và vẫn còn rất nhiều chuyện anh muốn làm cho em.";
+        } else if (clickCount === 7) {
+            document.getElementById("text").innerHTML = "Thì mong em tiếp tục chịu đựng con người vô tri này để mốt anh nuôi em nha.";
+        } else if (clickCount === 8) {
+            document.getElementById("text").innerHTML = "Anh biết là bản thân anh chỉ muốn bảo vệ em với chăm sóc cho em thoi,";
+        } else if (clickCount === 9) {
+            document.getElementById("text").innerHTML = "Nên là mong em ở bên anh tiếp nha.";
+        } else if (clickCount === 10) {
+            document.getElementById("text").innerHTML = "Cảm ơn em rất nhiều vì quãng thời gian 1 năm.";
+        } else if (clickCount === 11) {
+            document.getElementById("text").innerHTML = "Anh yêu em nhìu nhìu!!"; 
+        }
+
+    }
+</script>
+
+</body>
+</html>
